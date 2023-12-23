@@ -1,0 +1,262 @@
+/* HEADER */
+
+.color{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.ltalign{
+    margin-left: 70%;
+    margin-top: -50px;
+}
+
+.image{
+    height: 138px;
+    margin-top: -28px;
+    margin-left: -12px;
+}
+
+.bgimage{
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-family: auto;
+    font-size: 86px;
+}
+
+.tagline{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: auto;
+    font-weight: 600;
+}
+
+/* SECTION-1 */
+.width{
+    background-image: url('/images/whitebh2.jpg');
+    width: 100.9%;
+    height: 517px;
+}
+
+.story{
+    margin-top: 130px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'https://kinsta.com/blog/web-safe-fonts/#9-consolas';
+    font-size: 50px;
+}
+
+.lorem{
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'https://kinsta.com/blog/web-safe-fonts/#9-consolas';
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.food{
+    width: 101%;
+    margin-left: 5px;
+    height: 100%;
+}
+
+.stars{
+    width: 200px;
+}
+
+.star1{
+    margin: -25px 0px 0px 288px;
+}
+
+.star2{
+    margin: -19px 0px 0px 114px;
+}
+
+.star3{
+    margin: -5px 0px 0px 462px;
+}
+
+.star5{
+    margin: 53px 0px 0px 121px;
+}
+
+/* SECTION-2 */
+.speical{
+    margin-top: 47px;
+    margin-bottom: 39px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'https://kinsta.com/blog/web-safe-fonts/#9-consolas';
+    font-size: 50px;
+}
+
+/* SECTION-3 */
+.width1{
+    width: 100.9%;
+}
+
+/* .breakfastimg{
+    width: 101.8%;
+    height: 470px;
+} */
+
+.whitebg{
+    background-image: url('/images/whitebh2.jpg');
+}
+
+.headingspl{
+    text-align: center;
+    margin-top: 23%;
+    font-family: monospace;
+    font-size: 53px;
+}
+
+.para{  
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+    font-size: 17px;
+}
+
+.button{
+    margin-left: 40%;
+    border-radius: 10px;
+    padding: 4px 26px 4px 26px;
+    border: 2px solid black;
+    font-weight: 600;
+
+}
+
+/* SECTION-5 */
+.desiimg{
+    margin-left: -12px;
+    width: 103.6%;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+}
+
+.logofooter{
+    width: 100px;
+    margin-left: 46%;
+}
+
+.quicklink{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+.rtmrg{
+    margin-left: 29%;
+}
+
+.social{
+    width: 65px;
+}
+
+.social1{
+    width: 55px;
+}
+
+.socialleft{
+    margin-left: 42.7%;
+    margin-top: -3px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+/* BREAKFAST */
+
+.breakfastbg{
+    background-image: url('/images/breakfastbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.breakfastH{
+    color: white;
+    text-align: center;
+    margin-top: 17px;
+    font-family: auto;
+    font-size: 77px;
+}
+
+.form{
+    background-image: url('/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.add{
+    text-align: center;
+    margin-top: 227px;
+    margin-left: 180px;
+    font-family: math;
+    font-size: 33px;
+}
+
+.name{
+    width: 62%;
+    border: 1px solid black;
+    background-color: unset;
+    border-radius: 5px;
+    margin-left: 220px;
+}
+
+.recipeAdd{
+    margin-left: 25%;
+    padding: 2px 228px 2px 228px;
+    font-weight: 600;
+    background-color: beige;
+}
+
+
+.margintop{
+    margin-top: 60px;
+}
+
+.ImageUpload{
+    margin-left: 25%;
+    margin-bottom: 20px;
+    background-color: unset;
+}
+
+.recipelist{
+    list-style: none;
+    padding: 0px;
+}
+
+/* DESI */
+.desibg{
+    background-image: url('/images/desibg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* PIZZA */
+.pizzabg{
+    background-image: url('/images/pizzabg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
