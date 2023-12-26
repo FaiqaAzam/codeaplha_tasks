@@ -1,0 +1,184 @@
+/* NAV-BAR */
+
+.logo{
+    width: 23%;
+    margin: -15px 0px 0px -6px;
+}
+
+.nav {
+    margin: -32px 39px 0px 0px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home {
+    margin-left: 397px;
+}
+
+.background{
+    background-color: #ecd8f1;
+    padding: 1px;
+    
+}
+
+.astral{
+    font-family: emoji;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 300px 0px 0px 90px;
+}
+
+.project {
+    margin: -17% 0% 3.6% 54%;
+}
+
+/* ABOUT */
+.about {
+    font-family: emoji;
+    font-weight: 700;
+    font-size: 43px;
+    margin: 5% 0% 0% 41.5%;
+}
+
+.row{
+    width: 100%;
+}
+
+.para {
+    font-family: emoji;
+    font-size: 22px;
+    text-align: center;
+    margin: 13px 0px 70px 115px;
+}
+
+.user{
+    background-color: #ecd8f1;
+    border-radius: 20px;
+    margin-left: 3.5%;
+}
+
+.client {
+    text-align: center;
+    font-family: emoji;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 14px;
+}
+
+.users {
+    margin: 26px 0px 0px 147px;
+}
+
+.people {
+    text-align: center;
+    font-family: emoji;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 14px;
+}
+
+.row .col-md-4 {
+    flex: 0 0 auto;
+    width: 29.333333%;
+}
+
+.clients{
+    margin: 40px 0px 0px 156px;
+}
+
+/* ISSUE TRACKER */
+.issue{
+    background-color: #ecd8f1;
+}
+
+.tasks{
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 4% 1% 2% 7%;
+}
+
+.titleform {
+    width: 300px;
+    margin: -8px 0px 0px 30px;
+}
+
+#issueForm {
+    background-color: white;
+    width: 50%;
+    margin-left: 51%;
+    border-radius: 20px;
+}
+
+.desc{
+    margin: 2% 1% 2% 7%;
+}
+
+.assi{
+    margin: 0% 1% 2% 7%;
+}
+
+.create {
+    background: #ecd8f1;
+    margin: 2px 0px 0px 168px;
+}
+
+.issues{
+    text-align: center;
+}
+
+div#issue-list {
+    border: 2px solid black;
+    margin: 0% -24% 0% 25%;
+}
+
+.issue-table {
+        background-color: #ecd8f1;
+        padding: 17px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.logofooter{
+    width: 100px;
+    margin-left: 46%;
+}
+
+.quicklink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+.rtmrg{
+    margin-left: 29%;
+}
+
+.social{
+    width: 65px;
+}
+
+.social1{
+    width: 55px;
+}
+
+.socialleft{
+    margin-left: 42.7%;
+    margin-top: -3px;
+}
+
+.copyright{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}

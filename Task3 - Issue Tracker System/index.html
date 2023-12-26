@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Issue Tracker</title>
+</head>
+<body>
+
+  <!-- NAV-BAR -->
+   <section id="section1">
+    <div class="background">
+      <nav class="navbar navbar-expand-lg fixed-top background">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav home" aria-current="page" href="#section1" onclick="scrollToSection('section1')">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav" aria-current="page" href="#section2" onclick="scrollToSection('section2')">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav" aria-current="page" href="#section3" onclick="scrollToSection('section3')">Issue Tracker</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav" aria-current="page" href="#section4" onclick="scrollToSection('section4')">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <h2 class="astral">ASTRAL PROJECT</h2>
+        <img src="images/background.png" alt="background" class="project">
+  </div>
+   </section>
+
+    <!-- ABOUT -->
+    <section id="section2">
+      <div>
+        <h2 class="about">ABOUT US</h2>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-7">
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis incidunt voluptate sint consequuntur dolorem pariatur quam numquam. Suscipit ullam aut sint exercitationem totam itaque, laudantium temporibus sapiente eos quisquam tempora!</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 user">
+            <svg class="users clients" xmlns="http://www.w3.org/2000/svg" height="65" width="65" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+            <h2 class="client">Clients</h2>
+            <p class="people">500+</p>
+          </div>
+
+          <div class="col-md-4 user">
+            <svg class="users" xmlns="http://www.w3.org/2000/svg" height="80" width="80" viewBox="0 0 640 512"><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
+            <h2 class="client">Teams</h2>
+            <p class="people">100+</p>
+          </div>
+
+          <div class="col-md-4 user">
+            <svg class="users" xmlns="http://www.w3.org/2000/svg" height="70" width="78" viewBox="0 0 576 512"><path d="M0 80C0 53.5 21.5 32 48 32h96c26.5 0 48 21.5 48 48V96H384V80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H432c-26.5 0-48-21.5-48-48V160H192v16c0 1.7-.1 3.4-.3 5L272 288h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H272c-26.5 0-48-21.5-48-48V336c0-1.7 .1-3.4 .3-5L144 224H48c-26.5 0-48-21.5-48-48V80z"/></svg>
+            <h2 class="client">Projects</h2>
+            <p class="people">788+</p>
+          </div>
+        </div>
+        <br><br>
+      </div>
+    </section>
+
+    <!-- ISSUE TRACKER -->
+    <section id="section3">
+      <div class="issue">
+        <h2 class="about tasks">Issue Tasks</h2>
+
+        <div class="col-md-8">
+          <form id="issueForm">
+            <div class="mb-3">
+              <label class="title" for="title">Title:</label><br>
+              <input type="text" class="titleform" id="title" required>
+            </div>
+
+            <div class="mb-3">
+              <label class="desc title" for="description">Description:</label><br>
+              <textarea class="titleform" id="description" rows="3" required></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label class="title assi" for="assignee">Assignee:</label><br>
+              <input type="text" class="titleform" id="assignee" required>
+            </div>
+
+            <label class="title desc" for="priority">Priority:</label><br>
+            <select class="titleform" id="priority" required>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select><br><br>
+
+            <button type="button" class="create" onclick="createIssue()">Create Issue</button>
+            <br><br><br>
+          </form>
+          <br><br>
+          <div id="issues">
+            <h2 class="about tasks issues">Issues</h2>
+            <div id="issue-list"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section4">
+      <div class="footer">
+        <img src="/images/logo.png" alt="logo" class="logofooter"><br>
+        <a class="quicklink rtmrg" href="/index.html">Home</a>
+        <a class="quicklink" href="/pages/breakfast.html">Breakfast</a>
+        <a class="quicklink" href="/pages/desi.html">Desi</a>
+        <a class="quicklink" href="/pages/pizza.html">Pizza</a>
+        <a class="quicklink" href="/">About Us</a>
+        <a class="quicklink" href="/">Contact Us</a>
+        <br><br>
+        <a href="/"><img src="/images/facebook.png" alt="facebook" class="social socialleft"></a>
+        <a href="/"><img src="/images/instagram.png" alt="instagram" class="social1"></a>
+        <a href="/"><img src="/images/twitter.png" alt="twitter" class="social"></a>
+        <br>
+        <h5 class="copyright">Copyright © 2023 All Rights Reserved</h5>
+        <br>
+      </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
